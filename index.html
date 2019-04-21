@@ -618,14 +618,15 @@
                             </div>
                             <div class="row">
 
-                                <video width="560" height="320" controls="controls">
+                                <video id="movie" width="560" height="320" controls="controls">
                                     <source src="video/抽象圣经.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
 
                               <div class="col-md-6">
                                 <p>🌶️💉💧🐮🍺，啊、🌶️💉💧🐮🍺。开会💀🐴脸，↑班💀🐴脸。你是不是⏳️👃️啊？这种👤️。是不是💊√着你🐴️的①🐘️一直😀️你才觉得有📺效果啊？热你他🐴️，👤️瑞都瑞到了那个不做😶️是💀🐴脸吗？一📒️正经是💀🐴脸吗？开会🌶️么严🌳️的时🐵，每个👤️都在被🤬，每个👤都在接受意见的时🐵，我💊😀️吗？√着你🐴️的①🐘️😀️吧，🇯🇵你🐴的回去参➕你🐴的🅾️🍬⑧。🐘你🐴个弱🧠①样，💀🐴脸，你🐴💀了，√了⑧，我是你🐦🐦，我们✌️个都是你🐴的儿子，你🐴💀了好⑧、你🐴的🍺个弱🧠，💀🐴脸，我💀你🐴卖🌊，💀🐴脸，💊怎么摆吗？是不是💊夹根🥢在👅里 老子也学🌶️种✈️👩🏻‍🏭✈️🤵①样的🌶️种🏪🕛😊嘛、💀🐴脸，我💀你🐴你🐴卖🌊，滚去吃💩⑧，这你🐴弱🧠①样的。💀🐴脸，什么是💀🐴脸嘛，你🐴💀了我就摆①副💩脸，是不是💀🐴脸嘛、🐴的🍺弱🧠①样☁☁💬💀🐴脸。我💊怎样嘛，😡💀🐴脸，不😡在那儿打🎮也是💀🐴脸，🌶️要做什么😶️给你嘛，你💊我😢，才不是💀🐴脸嘛、√👋起做不到、你💊我①直😁吗，√👋起，我也做不到，所以💬很正常啊，我就这副😐啊。💀🐴脸，真🐘你🐴个🐸🍺</p>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal" onclick="toggleSound()">
+                                    
                                     <i class="fa fa-times"></i> Close
                                 </button>
                             </div>
@@ -741,7 +742,28 @@
             </div>
         </div>
     </div>    
-
+    <script>
+           function toggleSound(){
+               var video = document.getElementById('movie');
+               if(video.paused){ //如果已暂停则播放
+                   video.play(); //播放控制
+               }else{ // 已播放点击则暂停
+                   video.pause(); //暂停控制
+               }
+           }
+            $(".playbtn").click(function () {
+                console.log($('#movie').get(0).paused);
+                $('#movie').get(0).play();
+            });
+            function toggleSound(){
+                if ($('#movie').get(0).paused) {
+                    $('#movie').get(0).play();
+                }
+                else {
+                    $('#movie').get(0).pause();
+                }
+            };
+        </script>
 
     <!-- Global javascript -->
     <script src="js/jquery/jquery.min.js"></script>
