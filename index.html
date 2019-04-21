@@ -745,8 +745,8 @@
     <script>
            function toggleSound(){
                var video = document.getElementById('movie');
-               if(video.paused){ //如果已暂停则播放
-                   video.play(); //播放控制
+               if(video.paused){ //如果已暂停则啥也不干    
+                          
                }else{ // 已播放点击则暂停
                    video.pause(); //暂停控制
                }
@@ -755,14 +755,14 @@
                 console.log($('#movie').get(0).paused);
                 $('#movie').get(0).play();
             });
-            function toggleSound(){
-                if ($('#movie').get(0).paused) {
-                    $('#movie').get(0).play();
-                }
-                else {
-                    $('#movie').get(0).pause();
-                }
-            };
+            // function toggleSound(){
+            //     if ($('#movie').get(0).paused) {
+            //         $('#movie').get(0).play();
+            //     }
+            //     else {
+            //         $('#movie').get(0).pause();
+            //     }
+            // };
         </script>
 
     <!-- Global javascript -->
