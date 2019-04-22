@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2814622-c341-486f-aef2-5bd240b81f30" name="Default Changelist" comment="8">
-      <change beforePath="$PROJECT_DIR$/img/portfolio/c87f9c7da780898d1390c2f9ea24dfce6b68ec45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/p-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,12 +19,36 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="414" column="32" selection-start-line="414" selection-start-column="32" selection-end-line="414" selection-end-column="32" />
+            <state relative-caret-position="338">
+              <caret line="334" column="49" lean-forward="true" selection-start-line="334" selection-start-column="49" selection-end-line="334" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/bootstrap/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="5" column="12647" selection-start-line="5" selection-start-column="12647" selection-end-line="5" selection-end-column="12647" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#51727#51927#2" expanded="true" />
+                <element signature="e#52049#52198#2" expanded="true" />
+                <element signature="e#52344#52490#2" expanded="true" />
+                <element signature="e#52915#53078#1" expanded="true" />
+                <element signature="e#62330#62573#2" expanded="true" />
+                <element signature="e#63440#63689#2" expanded="true" />
+                <element signature="e#89389#89579#2" expanded="true" />
+                <element signature="e#89625#89815#2" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -48,6 +61,10 @@
       <find>p-8</find>
       <find>p-9</find>
       <find>p-3</find>
+      <find>拿手</find>
+      <find>my</find>
+      <find>skills</find>
+      <find>contact</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,10 +88,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="126" />
-    <option name="y" value="117" />
-    <option name="width" value="1400" />
-    <option name="height" value="851" />
+    <option name="x" value="-45" />
+    <option name="y" value="67" />
+    <option name="width" value="1038" />
+    <option name="height" value="892" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -87,6 +104,11 @@
             <path>
               <item name="ichuan" type="b2602c69:ProjectViewProjectNode" />
               <item name="ichuan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ichuan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ichuan" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,17 +149,20 @@
       <workItem from="1555738111212" duration="6443000" />
       <workItem from="1555749770477" duration="235000" />
       <workItem from="1555765608984" duration="2960000" />
+      <workItem from="1555818744028" duration="637000" />
+      <workItem from="1555842415858" duration="1036000" />
+      <workItem from="1555918010826" duration="6200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9638000" />
+    <option name="totallyTimeSpent" value="17511000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="117" width="1400" height="851" extended-state="0" />
+    <frame x="-45" y="67" width="1038" height="892" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24889868" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -160,14 +185,34 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="5" column="12647" selection-start-line="5" selection-start-column="12647" selection-end-line="5" selection-end-column="12647" />
+          <folding>
+            <element signature="e#51727#51927#2" expanded="true" />
+            <element signature="e#52049#52198#2" expanded="true" />
+            <element signature="e#52344#52490#2" expanded="true" />
+            <element signature="e#52915#53078#1" expanded="true" />
+            <element signature="e#62330#62573#2" expanded="true" />
+            <element signature="e#63440#63689#2" expanded="true" />
+            <element signature="e#89389#89579#2" expanded="true" />
+            <element signature="e#89625#89815#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="414" column="32" selection-start-line="414" selection-start-column="32" selection-end-line="414" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="338">
+          <caret line="334" column="49" lean-forward="true" selection-start-line="334" selection-start-column="49" selection-end-line="334" selection-end-column="49" />
         </state>
       </provider>
     </entry>
