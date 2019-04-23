@@ -269,6 +269,7 @@
                     <img class="img-fluid" src="img/portfolio/t-1.png" alt="">
                 </a>
             </div>
+            
           </div>
       </section>
 
@@ -554,11 +555,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" >
       <div class="modal-dialog" role="document">
           <div class="modal-content">
-              <div class="close-modal" data-dismiss="modal">
-                  <div class="lr">
-                      <div class="rl"></div>
-                  </div>
-              </div>
+            
               <div class="container">
                   <div class="row">
                           <div class="modal-body">
@@ -570,7 +567,7 @@
                               </div>
                               <div class="row">
 
-                                  <video width="560" height="320" controls="controls">
+                                  <video id="neighbour" width="560" height="320" controls="controls">
                                       <source src="video/孙笑川安排邻居.mp4" type="video/mp4">
                                       Your browser does not support the video tag.
                                   </video>
@@ -579,7 +576,8 @@
                                 <div class="col-md-6">
                                   
                                   <p>某日晚九点多时，孙笑川由于直播时说话音量过大，遭来了楼上邻居的隔空骂娘，孙笑川当即摘下耳机与邻居来了一段友善的互动。</p>
-                                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                  <p><strong>正片见2min25s</strong></p>
+                                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal" onclick="neighbourPause()">
                                       <i class="fa fa-times"></i> 关闭
                                   </button>
                               </div>
@@ -593,11 +591,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
+                
                 <div class="container">
                 <div class="row">
                         <div class="modal-body">
@@ -628,11 +622,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
+                
                 <div class="container">
                 <div class="row">
                         <div class="modal-body">
@@ -682,11 +672,7 @@
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
           <div class="modal-content">
-              <div class="close-modal" data-dismiss="modal">
-                  <div class="lr">
-                      <div class="rl"></div>
-                  </div>
-              </div>
+              
               <div class="container">
               <div class="row">
                       <div class="modal-body">
@@ -746,7 +732,7 @@
                             </div>
                             <div class="row">
                                 
-                                <video id="movie" width="560" height="320" controls="controls">
+                                <video id="bible" width="560" height="320" controls="controls">
                                     <source src="video/抽象圣经.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
@@ -776,7 +762,7 @@
                                     </li>
                                  
                                 </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal" onclick="toggleSound()">
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal" onclick="biblePause()">
                                     
                                     <i class="fa fa-times"></i> Close
                                 </button>
@@ -816,7 +802,7 @@
                                     </li>
                                  
                                 </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal" >
                                     <i class="fa fa-times"></i> Close
                                 </button>
                             </div>
@@ -842,15 +828,15 @@
                             </div>
                             <div class="row">
 
-                                <video width="560" height="320" controls="controls">
+                                <video id="hit" width="560" height="320" controls="controls">
                                     <source src="video/孙笑川打莱莱.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
 
                                 <div class="col-md-6">
-                                <p>某天孙笑川在直播时，一粉丝在嘚瑟自己是孙笑川的好友，粉丝们看不下去了，纷纷发弹幕要孙笑川删其好友位。孙笑川灵机一动说，给刷火箭就删 。当粉丝刷了火箭时，孙笑川原地翻脸。气及败坏的粉丝便跑到孙笑川家乡的贴吧说他为了五百块钱打奶奶，帖子一发出反响特别好，之后嗨粉们在各大贴吧发帖钓鱼。演变成孙笑川带热诚打奶奶、带行窃预兆打奶奶，顺便扒了网上某个<del>传统美德</del>的视频安在孙狗的头上。</p>
+                                <p>某天孙笑川在直播时，一粉丝在嘚瑟自己是孙笑川的好友，粉丝们看不下去了，纷纷发弹幕要孙笑川删其好友位。孙笑川灵机一动说，给刷火箭就删 。当粉丝刷了火箭时，孙笑川原地翻脸。气急败坏的粉丝便跑到孙笑川家乡的贴吧说他为了五百块钱打奶奶（此前孙笑川曾在直播间和奶奶吵过一次架），帖子一发出反响特别好，之后嗨粉们在各大贴吧发帖钓鱼。演变成孙笑川带热诚打奶奶、带行窃预兆打奶奶，顺便扒了网上某个<del>传统美德</del>的视频安在孙狗的头上。</p>
                                 
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal" onclick="hitPause()">
                                     <i class="fa fa-times"></i> Close
                                 </button>
                             </div>
@@ -862,8 +848,8 @@
         </div>
     </div>    
     <script>
-           function toggleSound(){
-               var video = document.getElementById('movie');
+           function biblePause(){
+               var video = document.getElementById('bible');
                if(video.paused){ //如果已暂停则啥也不干    
                           
                }else{ // 已播放点击则暂停
@@ -871,18 +857,48 @@
                }
            }
             $(".playbtn").click(function () {
-                console.log($('#movie').get(0).paused);
-                $('#movie').get(0).play();
+                console.log($('#bible').get(0).paused);
+                $('#bible').get(0).play();
             });
-            // function toggleSound(){
-            //     if ($('#movie').get(0).paused) {
-            //         $('#movie').get(0).play();
+            // function biblePause(){
+            //     if ($('#bible').get(0).paused) {
+            //         $('#bible').get(0).play();
             //     }
             //     else {
-            //         $('#movie').get(0).pause();
+            //         $('#bible').get(0).pause();
             //     }
             // };
         </script>
+<script>
+    function hitPause(){
+        var video = document.getElementById('hit');
+        if(video.paused){ //如果已暂停则啥也不干    
+                   
+        }else{ // 已播放点击则暂停
+            video.pause(); //暂停控制
+        }
+    }
+     $(".playbtn").click(function () {
+         console.log($('#hit').get(0).paused);
+         $('#hit').get(0).play();
+     });
+
+ </script>
+ <script>
+    function neighbourPause(){
+        var video = document.getElementById('neighbour');
+        if(video.paused){ //如果已暂停则啥也不干    
+                   
+        }else{ // 已播放点击则暂停
+            video.pause(); //暂停控制
+        }
+    }
+     $(".playbtn").click(function () {
+         console.log($('#neighbour').get(0).paused);
+         $('#neighbour').get(0).play();
+     });
+
+ </script>
 
     <!-- Global javascript -->
     <script src="js/jquery/jquery.min.js"></script>
